@@ -1,6 +1,6 @@
 import React from 'react';
 
-class HomeScreen extends React.Component
+class NoScreen extends React.Component
 {
     constructor() {
         super()
@@ -10,10 +10,10 @@ class HomeScreen extends React.Component
     {
         return (
             <div className='Main'>
-                <h1>HomeScreen</h1>
+                <h1>404 Not Found</h1>
             </div>
         );
     }
 }
 
-export default HomeScreen;
+export default NoScreen;
