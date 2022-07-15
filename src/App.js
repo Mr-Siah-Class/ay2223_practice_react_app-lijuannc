@@ -16,11 +16,10 @@ import {
   import SingleProductScreen from './screens/SingleProductScreen';
   
   
-const ProductIdWrapper = () => {
+  const ProductIdWrapper = () => {
     const { productId } = useParams();
     return <SingleProductScreen productId={productId} />;
   };
-
 
 class App extends React.Component
 {
